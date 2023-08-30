@@ -27,6 +27,18 @@ body {
     }
 }
 
+
+@media only screen and (min-width:500px) and (max-width:200px){
+    .main-title {
+        margin: 0 auto;
+        font-size: 3rem;
+    }
+
+    .content-box {
+        width: 40rem;
+    }
+}
+
 .content-box {
     border-radius: .5rem;
     width: 95rem;
