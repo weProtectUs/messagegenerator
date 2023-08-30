@@ -5,6 +5,12 @@ body {
    background-color: #0f0f0f;
 }
 
+header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .main-title {
     text-align: center;
     padding: 5rem 0;
@@ -28,15 +34,12 @@ body {
 }
 
 
-@media only screen and (min-width:500px) and (max-width:200px){
+@media only screen and (min-width:500px) and (max-width:250px){
     .main-title {
-        margin: 0 auto;
-        font-size: 3rem;
+        text-align: center;
+        font-size: 1.75rem;
     }
 
-    .content-box {
-        width: 40rem;
-    }
 }
 
 .content-box {
@@ -45,6 +48,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-shrink: 2;
     padding: 2rem 3.25rem;
     text-align: center;
     margin: 0 auto;
