@@ -1,0 +1,105 @@
+html {
+    font-size: 16px;
+}
+body {
+   background-color: #202020;
+}
+
+.main-title {
+    text-align: center;
+    padding: 5rem 0;
+    font-size: 6rem;
+    font-family: "Russo One";
+    text-shadow: -3px 4px 4px #3d0000;
+    color: #ca0000;
+    animation: .5s linear 0s infinite running flash; 
+}
+
+@keyframes flash {
+    0% {
+        color: #ca0000;
+        text-shadow: -3px 4px 4px #3d0000;
+    }
+
+    50% {
+        color: yellow;
+        text-shadow: -3px 4px 4px rgb(105, 105, 3);
+    }
+}
+
+.content-box {
+    border-radius: .5rem;
+    width: 95rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 3.25rem;
+    text-align: center;
+    margin: 0 auto;
+    background: linear-gradient(0.35turn, #0f0f0f 80%, #0d9c55);
+}
+
+.content-box p {
+    font-size: 3.05rem;
+    font-family: "Urbanist";
+    text-shadow: -2px 3px 5px #202020;
+    color: #fff;
+}
+
+.content-box h3 {
+    font-size: 3.5rem;
+    font-family: "Russo One";
+    color: #c9d60b;
+    text-shadow: -2px 6px 3px #202020;
+}
+
+.message-container {
+    margin: 2rem;   
+    height: 12rem;
+    border: 1px solid #202020;
+    border-radius: .5rem;
+    background-color: #fff;
+}
+
+.message-output {
+    font-family: "Pacifico";
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+
+strong {
+    color: #ad0202;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#name {
+    height: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: .5rem 0;
+    border-radius: .25rem;
+    font-family: "Pacifico";
+}
+
+#submit {
+    font-size: 1.25rem;
+    font-weight: bold;
+    width: 6rem;
+    background-color: #08c567;
+    color: #fff;
+    border-radius: .25rem;
+    box-shadow: inset 3px -4px 2px rgb(8, 97, 54), -2px 2px 3px 2px #202020;
+}
+
+#submit:active {
+    background-color: #0d9c55;
+    box-shadow: inset -2px 3px 2px rgb(5, 71, 39), 2px -2px 2px 1px #202020;
+    color:#202020
+}
