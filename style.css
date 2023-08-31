@@ -34,9 +34,9 @@ header {
 }
 
 
-@media only screen and (min-width:500px) and (max-width:250px){
+@media only screen and (min-width:500px) and (max-width:250px) {
     .main-title {
-        font-size: 20px;
+        font-size: 12px;
     }
 
     .content-box {
@@ -49,12 +49,12 @@ header {
     }
 
     #name {
-        font-size: 8px;
+        font-size: 6px;
         font-family: Arial, Helvetica, sans-serif;
     }
 
     .message-output {
-        font-size: 8px;
+        font-size: 6px;
         font-family:Arial, Helvetica, sans-serif;
     }
 }
@@ -73,7 +73,7 @@ header {
 
 .content-box p {
     font-size: 3.05rem;
-    font-family: "Urbanist";
+    font-family: "Urbanist", Arial, sans-serif;
     text-shadow: -2px 3px 5px #202020;
     color: #fff;
 }
